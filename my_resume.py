@@ -78,7 +78,7 @@ if page == "📝 Summary":
 elif page == "💼 Experience":
     st.markdown("<div class='section'><h1>Experience</h1>", unsafe_allow_html=True)
 
-    st.markdown("### Kivi Capitals — Trade Operations Analyst (Apr 2024 – Nov 2025)", unsafe_allow_html=True)
+    st.markdown("### Kivi Capitals — Trade Operations Analyst (Apr 2024 – Nov 2024)", unsafe_allow_html=True)
     st.markdown("""
     - Deployed 20+ Airflow DAGs automating tasks — reduced manual work by 80%  
     - Built Python and Bash scripts for diagnostics and alerts — improved response by 30%  
