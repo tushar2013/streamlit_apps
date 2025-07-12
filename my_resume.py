@@ -30,18 +30,23 @@ hr {
     margin-bottom: 30px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.05);
 }
+.sidebar {
+    width: 100%;
+}
 </style>
 """, unsafe_allow_html=True)
 
 # Sidebar navigation
-st.sidebar.markdown("<h1>Tushar Mazumdar</h1>", unsafe_allow_html=True)
 st.sidebar.markdown("""
-    <div style='text-align: center;'>
-    📧 tushar.mazumdar2013@gmail.com 
-    </br>
-    📞 +91-9818761795
-    <a href='https://linkedin.com/in/tushar-mazumdar' style='text-decoration: none; color: #016e77;'>🔗 LinkedIn</a>
-    <a href='https://github.com/tushar2013'  style='text-decoration: none; color: #016e77;'>💻 GitHub</a>
+    <div class='sidebar'>
+        <h1>Tushar Mazumdar</h1>
+        <div style='text-align: center;'>
+        📧 tushar.mazumdar2013@gmail.com 
+        </br>
+        📞 +91-9818761795
+        <a href='https://linkedin.com/in/tushar-mazumdar' style='text-decoration: none; color: #016e77;'>🔗 LinkedIn</a>
+        <a href='https://github.com/tushar2013'  style='text-decoration: none; color: #016e77;'>💻 GitHub</a>
+        </div>
     </div>
 """, unsafe_allow_html=True)
 
