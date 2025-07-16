@@ -6,9 +6,6 @@ st.set_page_config(page_title="Tushar Mazumdar - CV", layout="wide")
 # CSS styling
 st.markdown("""
     <style>
-        body {
-            background-color: #f4f6f7;
-        }
         h1, h2, h3 {
             color: #006d77;
             font-family: 'Segoe UI', sans-serif;
@@ -72,7 +69,7 @@ page = st.sidebar.radio('', [
 
 # Summary
 if page == "📝 Summary":
-    st.markdown("<div class='section'><h1>Summary</h1><p>Aspiring Data Scientist with 9+ years of experience in DevOps, automation,and quantitative operations. Currently completing a Data Science course focused on machine learning, statistical modeling, and Python-based data workflows. Passionate about transforming data into actionable insights using real-world experience in trading systems and monitoring architectures. </p></div>", unsafe_allow_html=True)
+    st.markdown("<div><h1 class='section'>Summary</h1><p>Aspiring Data Scientist with 9+ years of experience in DevOps, automation,and quantitative operations. Currently completing a Data Science course focused on machine learning, statistical modeling, and Python-based data workflows. Passionate about transforming data into actionable insights using real-world experience in trading systems and monitoring architectures. </p></div>", unsafe_allow_html=True)
 
 # Experience
 elif page == "💼 Experience":
