@@ -21,7 +21,7 @@ st.markdown("""
             margin: 1rem 0;
         }
         .section {
-            background-color: #ffffff;
+            background-color: #000000;
             padding: 1rem 2rem;
             border-radius: 10px;
             margin-bottom: 30px;
