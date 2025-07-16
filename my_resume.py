@@ -4,43 +4,43 @@ import streamlit as st
 st.set_page_config(page_title="Tushar Mazumdar - CV", layout="wide")
 
 # CSS styling
-st.markdown("""
-    <style>
-        h1, h2, h3 {
-            color: #006d77;
-            font-family: 'Segoe UI', sans-serif;
-            text-align: center;
-        }
-        p, li {
-            font-size: 16px;
-            line-height: 1.6;
-        }
-        hr {
-            border: none;
-            border-top: 2px solid #ccc;
-            margin: 1rem 0;
-        }
-        .section {
-            background-color: #000000;
-            padding: 1rem 2rem;
-            border-radius: 10px;
-            margin-bottom: 30px;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
-        }
-        .sidebar {
-            width: 100%;
-        }
-        /* Change sidebar width */
-        [data-testid="stSidebar"] {
-            width: 360px !important;  /* Adjust the width here */
-        }
-
-        /* Optional: Push main content accordingly */
-        [data-testid="stSidebar"] > div:first-child {
-            width: 360px !important;
-        }
-    </style>
-""", unsafe_allow_html=True)
+#st.markdown("""
+#    <style>
+#        h1, h2, h3 {
+#            color: #006d77;
+#            font-family: 'Segoe UI', sans-serif;
+#            text-align: center;
+#        }
+#        p, li {
+#            font-size: 16px;
+#            line-height: 1.6;
+#        }
+#        hr {
+#            border: none;
+#            border-top: 2px solid #ccc;
+#            margin: 1rem 0;
+#        }
+#        .section {
+#            background-color: #000000;
+#            padding: 1rem 2rem;
+#            border-radius: 10px;
+#            margin-bottom: 30px;
+#            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+#        }
+#        .sidebar {
+#            width: 100%;
+#        }
+#        /* Change sidebar width */
+#        [data-testid="stSidebar"] {
+#            width: 360px !important;  /* Adjust the width here */
+#        }
+#
+#        /* Optional: Push main content accordingly */
+#        [data-testid="stSidebar"] > div:first-child {
+#            width: 360px !important;
+#        }
+#    </style>
+#""", unsafe_allow_html=True)
 
 # Sidebar navigation
 st.sidebar.markdown("""
