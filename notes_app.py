@@ -86,5 +86,11 @@ if topic == 'Statistics':
         ''')
         st.latex(r'''\sigma = \sqrt{\sigma^2} = \sqrt{\frac{1}{n-1} \sum_{i=1}^{N} (x_i - \bar{x})^2}''')
         st.latex(r'''\sigma = \sqrt{214} = 14.63''')
-    if day == 'Day 2':
+    elif day == 'Day 2':
         st.markdown('# `Probability` is the formal study of the laws of chances.')
+    elif day == 'Day 3':
+        st.markdown('# Coming Soon.....')
+    elif day == 'Day 4':
+        st.markdown('# Coming Soon.....')
+    elif day == 'Day 5':
+        st.markdown('# Coming Soon.....')
