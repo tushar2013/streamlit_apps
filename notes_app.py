@@ -2,12 +2,13 @@ import streamlit as st
 
 with st.sidebar:
     topic = st.selectbox('Choose Topic',(
-                'Statistics',
                 'Data Science',
+                'Statistics',
+                'Streamlit',
             ))
 
 if topic == 'Statistics':
-    st.markdown('# 30 days of `STATISTCS`')
+    st.markdown(f'# 30 days of `{topic.upper()}`')
     day = st.selectbox('Start the Challenge', ('Day 1', 'Day 2', 'Day 3', 'Day 4', 'Day 5', ))
     if day == 'Day 1':
         st.markdown('# `Statistics` quantifies uncertainty by learning from.')
@@ -94,3 +95,7 @@ if topic == 'Statistics':
         st.markdown('# Coming Soon.....')
     elif day == 'Day 5':
         st.markdown('# Coming Soon.....')
+elif topic == 'Data Science':
+    st.markdown(f'# 30 days of `{topic.upper()}`')
+elif topic == 'Streamlit':
+    st.markdown(f'# 30 days of `{topic.upper()}`')
