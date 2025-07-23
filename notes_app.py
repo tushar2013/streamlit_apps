@@ -20,8 +20,8 @@ if topic == 'Statistics':
         st.markdown('''
             ---
             ## Two important properties of `data`:
-              - #### `Center of the data`: The typical value of the data.
-              - #### `Spread about the center value: How far from the center the data tend to range.`
+              - #### `Center of the data:` The typical value of the data.
+              - #### `Spread about the center value:` How far from the center the data tend to range.
         ''')
         st.image('center_and_spread.jpg', caption='Center and Spread')
 
