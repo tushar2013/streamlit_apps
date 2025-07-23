@@ -102,5 +102,7 @@ if topic == 'Statistics':
         st.markdown('# Coming Soon.....')
 elif topic == 'Data Science':
     st.markdown(f'# 30 days of `{topic.upper()}`')
+    st.markdown('# Coming Soon.....')
 elif topic == 'Streamlit':
     st.markdown(f'# 30 days of `{topic.upper()}`')
+    st.markdown('# Coming Soon.....')
