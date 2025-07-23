@@ -7,8 +7,8 @@ wide_space_default()
 
 with st.sidebar:
     topic = st.selectbox('Choose Topic',(
-                'Data Science',
                 'Statistics',
+                'Data Science',
                 'Streamlit',
             ))
 
