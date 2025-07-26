@@ -92,8 +92,22 @@ if topic == 'Statistics':
         ''')
         st.latex(r'''\sigma = \sqrt{\sigma^2} = \sqrt{\frac{1}{n-1} \sum_{i=1}^{N} (x_i - \bar{x})^2}''')
         st.latex(r'''\sigma = \sqrt{214} = 14.63''')
+
     elif day == 'Day 2':
         st.markdown('# `Probability` is the formal study of the laws of chances.')
+        st.markdown('## Some Basic Definitions')
+        st.image('probability_definitions.jpg', caption='Some basic definitions')
+        st.markdown('###### Example')
+        st.image('random_experiment.jpg', caption='Random Experiment')
+        st.image('elementry_outcomes.jpg', caption='Elementry Outcomes')
+        st.image('sample_space.jpg', caption='Sample Space')
+        st.markdown('## The Likelihood of Elementry Outcomes')
+        st.image('p_of_o_i.jpg')
+        st.markdown('## Characterstic properties of Probability')
+        st.latex(r"P(o_i) \geq 0 \quad \text{for all } i")
+        st.latex(r"P(o_1) + P(o_2) + \cdots + P(o_n) = 1")
+
+
     elif day == 'Day 3':
         st.markdown('# Coming Soon.....')
     elif day == 'Day 4':
