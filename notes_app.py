@@ -5,14 +5,29 @@ def wide_space_default():
 
 wide_space_default()
 
-with st.sidebar:
-    topic = st.selectbox('Choose Topic',(
-                'Statistics',
-                'Data Science',
-                'Streamlit',
-            ))
+topic = st.selectbox('Choose Topic',(
+            '',
+            'Statistics',
+            'Data Science',
+            'Streamlit',
+        ))
 
-if topic == 'Statistics':
+if topic == '':
+    st.markdown('''
+    # 👋 **Welcome to** Code Kendra
+    
+    Built by learners, for learners — no matter where you’re starting from.  
+    Whether you’re tuning in from a top-tier campus or a college few have heard of, one thing’s certain: **your ambition matters more than your ZIP code.**
+    
+    At **Code Kendra**, we believe that great coders aren’t born — they’re self-built, one commit at a time.
+    
+    Here, you’ll find crystal-clear notes, real-world concepts, and the kind of content that *cuts through the noise* — designed especially for those who like to figure things out the hard way… and come out smarter for it.
+    
+    **No hype. No shortcuts. Just code, clarity, and community.**  
+    ### Welcome aboard. 🧠💻
+    ''')
+
+elif topic == 'Statistics':
     st.markdown(f'# 30 days of `{topic.upper()}`')
     day = st.selectbox('Start the Challenge', ('Day 1', 'Day 2', 'Day 3', 'Day 4', 'Day 5', ))
     if day == 'Day 1':
@@ -114,9 +129,11 @@ if topic == 'Statistics':
         st.markdown('# Coming Soon.....')
     elif day == 'Day 5':
         st.markdown('# Coming Soon.....')
+
 elif topic == 'Data Science':
     st.markdown(f'# 30 days of `{topic.upper()}`')
     st.markdown('# Coming Soon.....')
+
 elif topic == 'Streamlit':
     st.markdown(f'# 30 days of `{topic.upper()}`')
     st.markdown('# Coming Soon.....')
