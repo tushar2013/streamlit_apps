@@ -10,6 +10,7 @@ topic = st.selectbox('Choose Topic',(
             'Statistics',
             'Data Science',
             'Streamlit',
+            'AWS',
         ))
 
 if topic == '':
